@@ -6,6 +6,7 @@
   "scripts": {
     "build": "tsc && tsc-alias",
     "dev": "tsx src/main.ts",
+    "dev1": "node -r @swc-node/register src/main.ts",
     "start": "node dist/main.js"
   },
   "keywords": [],
@@ -13,17 +14,17 @@
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "@mikro-orm/core": "^7.0.1",
-    "@mikro-orm/decorators": "^7.0.1",
-    "@mikro-orm/migrations": "^7.0.1",
-    "@mikro-orm/postgresql": "^7.0.1",
-    "@mikro-orm/seeder": "^7.0.1",
+    "@mikro-orm/core": "^7.0.2-dev",
+    "@mikro-orm/decorators": "^7.0.2-dev",
+    "@mikro-orm/migrations": "^7.0.2-dev",
+    "@mikro-orm/postgresql": "^7.0.2-dev",
+    "@mikro-orm/seeder": "^7.0.2-dev",
     "bcryptjs": "^3.0.3",
     "dotenv": "^17.3.1",
     "reflect-metadata": "^0.2.2"
   },
   "devDependencies": {
-    "@mikro-orm/cli": "^7.0.1",
+    "@mikro-orm/cli": "^7.0.2-dev",
     "@swc-node/register": "^1.11.1",
     "@swc/core": "^1.15.18",
     "@types/node": "^25.3.3",
