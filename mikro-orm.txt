@@ -1,0 +1,2 @@
+npm i @mikro-orm/core @mikro-orm/migrations @mikro-orm/postgresql
+npm i -D @mikro-orm/cli

@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2024",
+    "strict": true,
+    "outDir": "dist",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "paths" : {
+      "src/*": ["./src/*"]
+    }
+  },
+  "include": [
+    "./src/**/*.ts"
+  ]
+}
